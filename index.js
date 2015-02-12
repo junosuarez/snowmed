@@ -24,4 +24,4 @@ function snowmed () {
     .replace('$weather', random(weather))
 }
 
-console.log(snowmed())
+module.exports = snowmed
