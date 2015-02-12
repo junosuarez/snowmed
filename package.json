@@ -1,9 +1,12 @@
 {
   "name": "snowmed",
+  "engine": "iojs@^1.2.0",
   "author": "jden <jason@denizac.org>",
   "version": "1.0.0",
   "description": "",
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mochi"
@@ -13,5 +16,10 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "mochi": "0.3.0"
+  },
+  "dependencies": {
+    "readable-stream": "^1.0.33",
+    "tuttle": "^0.2.1",
+    "twitter": "^1.2.1"
   }
 }
