@@ -1,6 +1,8 @@
 {
   "name": "snowmed",
-  "engine": "iojs@^1.2.0",
+  "engines": {
+    "iojs": "1.2.x"
+  },
   "author": "jden <jason@denizac.org>",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mochi"
+    "start": "node twitter"
   },
   "repository": "git@github.com:jden/snowmed.git",
   "license": "ISC",
